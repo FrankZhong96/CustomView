@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="5dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <com.frank.customview.wight.stepview.StepView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:id="@+id/stepview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:entiretyColor="@color/colorPrimary"
         app:portionColor="@color/colorAccent"
         app:stepTextColor="@color/colorAccent"
-        app:stepTextSize="18sp" />
+        app:borderWidth="20dp"
+        app:stepTextSize="30sp" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
