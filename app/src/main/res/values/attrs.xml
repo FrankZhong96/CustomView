@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+
+        <!--全部颜色&大圆弧-->
+        <attr name="entiretyColor" format="color" />
+        <!--部分颜色&小圆弧-->
+        <attr name="portionColor" format="color" />
+        <!--圆弧宽度-->
+        <attr name="borderWidth" format="dimension" />
+        <!--步数字体大小-->
+        <attr name="stepTextSize" format="dimension" />
+        <!--步数字体颜色-->
+        <attr name="stepTextColor" format="color" />
+
+    </declare-styleable>
+</resources>
