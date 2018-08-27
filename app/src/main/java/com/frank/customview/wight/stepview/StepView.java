@@ -128,7 +128,8 @@ public class StepView extends View {
 
     public void setStepCurrent(int stepCurrent){
         this.mStepCurrent = stepCurrent;
-        invalidate();//不断绘制
+        invalidate();//不断绘制 https://blog.csdn.net/leif_/article/details/50596085
+
     }
 
 

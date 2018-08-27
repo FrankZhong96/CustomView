@@ -5,17 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.frank.customview.wight.stepview.StepView
-        android:id="@+id/stepview"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_stepview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:entiretyColor="@color/colorPrimary"
-        app:portionColor="@color/colorAccent"
-        app:stepTextColor="@color/colorAccent"
-        app:borderWidth="20dp"
-        app:stepTextSize="30sp" />
+        android:layout_height="wrap_content"
+        android:text="仿QQ运动计步"/>
 
 </LinearLayout>
