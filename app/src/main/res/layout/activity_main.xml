@@ -4,14 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="5dp"
     android:orientation="vertical"
+    android:padding="5dp"
     tools:context=".MainActivity">
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_stepview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="仿QQ运动计步"/>
+        android:text="仿QQ运动计步" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_colortrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="字体变色，实现一个字体两种颜色" />
+
 
 </LinearLayout>

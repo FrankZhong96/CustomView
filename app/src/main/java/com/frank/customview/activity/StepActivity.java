@@ -1,4 +1,4 @@
-package com.frank;
+package com.frank.customview.activity;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
