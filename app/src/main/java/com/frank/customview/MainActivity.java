@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn_stepview = findViewById(R.id.btn_stepview);
         Button btn_colortrack = findViewById(R.id.btn_colortrack);
         btn_stepview.setOnClickListener(this);
+        btn_colortrack.setOnClickListener(this);
     }
 
     @Override
