@@ -21,6 +21,8 @@
 
         <activity android:name=".activity.ColorTrackTextViewActivity" />
 
+        <activity android:name=".activity.LetterSideBarActivity"/>
+
     </application>
 
 </manifest>

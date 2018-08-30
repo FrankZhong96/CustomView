@@ -10,11 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
 import com.frank.customview.R;
 import com.frank.customview.fragment.ItemFragment;
 import com.frank.customview.wight.colortracktextview.ColorTrackTextView;
-
 import java.util.ArrayList;
 import java.util.List;
 

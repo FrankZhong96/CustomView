@@ -24,4 +24,13 @@
 
     </declare-styleable>
 
+    <declare-styleable name="LetterSideBar">
+        <!--索引列表颜色-->
+        <attr name="sideBarColor" format="color" />
+        <!--索引列表颜色-->
+        <attr name="sideBarHeightColor" format="color" />
+        <!--索引列表大小-->
+        <attr name="sideBarSize" format="dimension" />
+    </declare-styleable>
+
 </resources>
